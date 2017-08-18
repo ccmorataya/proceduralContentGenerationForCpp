@@ -1,6 +1,7 @@
 // @ccmorataya random number generator with the std::rand()
 
 #include <iostream>
+#include <cstdlib>
 
 using namespace std;
 
