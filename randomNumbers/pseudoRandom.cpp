@@ -7,6 +7,7 @@ using namespace std;
 
 int main()
 {
+    srand(100);         // Setting the seed for rand
     while (true)
     {
         cout << "Press a key to generate a random number: ";
