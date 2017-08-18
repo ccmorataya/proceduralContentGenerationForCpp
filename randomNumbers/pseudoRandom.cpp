@@ -14,7 +14,7 @@ int main()
 
         // CM: generate the random integer
         //int randomInteger = rand();     // can be std::rand()
-        int randomInteger = rand() % 100;     // can be std::rand()
+        int randomInteger = rand() % 50 + 50;     // can be std::rand()
 
         cout << randomInteger << endl << endl;
     }
