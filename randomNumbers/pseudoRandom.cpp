@@ -1,4 +1,5 @@
 // @ccmorataya random number generator with the std::rand()
+// change the code to complete the exercise of Chapter 1
 
 #include <iostream>
 #include <cstdlib>
@@ -16,7 +17,7 @@ int main()
 
         // CM: generate the random integer
         //int randomInteger = rand();     // can be std::rand()
-        int randomInteger = rand() % 50 + 50;     // can be std::rand()
+        int randomInteger = rand() % 1000;     // can be std::rand()
 
         cout << randomInteger << endl << endl;
     }
