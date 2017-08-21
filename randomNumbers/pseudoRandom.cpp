@@ -17,8 +17,8 @@ int main()
 
         // CM: generate the random integer
         //int randomInteger = rand();     // can be std::rand()
-        // CM: range 150 to 600
-        int randomInteger = rand() % 451 + 150;     // can be std::rand()
+        // CM: range 198 to 246
+        int randomInteger = rand() % 49 + 198;     // can be std::rand()
 
         cout << randomInteger << endl << endl;
     }
