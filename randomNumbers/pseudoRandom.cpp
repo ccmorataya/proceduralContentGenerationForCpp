@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-    srand(time(nullptr));         // Setting the seed for rand
+    srand(time(nullptr) * time(nullptr));         // Setting the seed for rand
     while (true)
     {
         cout << "Press a key to generate a random number: ";
