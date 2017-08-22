@@ -1,4 +1,5 @@
 #include <iostream>
+#include <memory>
 
 using namespace std;     // replace the std::xx syntax
 
@@ -26,10 +27,12 @@ int main()
     };
 
     // CM: instantiate myFood as Pizza
-    Food myFood = Pizza();
+    // CM: using pointer to avoid the slicing objects
+    //Food myFood = Pizza();
+    unique_ptr<Food> myFood = make_unique<Pizza>();
 
     // CM: print the type of myFood
-    cout << myFood.GetFoodType().c_str() << endl;
+    cout << myFood->GetFoodType().c_str() << endl;
     cin.get();
 
     // CM: return 0 = success
